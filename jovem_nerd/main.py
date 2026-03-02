@@ -74,6 +74,5 @@ class Collector:
       page += 1
 # %%
 collect = Collector('https://api.jovemnerd.com.br/wp-json/jovemnerd/v1/nerdcasts/', 'episodios')
-# %%
 collect.auto_exect()
 # %%
